@@ -1,0 +1,20 @@
+# Crack-Filling Robot — Python dependencies (Python 3.10+, developed on 3.13)
+# Core numerics + MILP solver (scipy.optimize.milp / HiGHS, used by ChinesePostman)
+numpy>=2.1
+scipy>=1.14
+
+# Geometry (polygons: cells, buffers, boolean ops)
+shapely>=2.0
+# Clipper engine: polygon offset (cell geometry) + open-round line buffer for
+# self-overlapping coverage paths (covered-region subtract)
+pyclipper>=1.3
+
+# Graphs (directed/undirected, shortest paths, spanning trees)
+networkx>=3.3
+
+# Image skeletonization & morphology
+scikit-image>=0.24
+
+# Visualization + animation (figures, per-step frames, GIF assembly)
+matplotlib>=3.9
+imageio>=2.34

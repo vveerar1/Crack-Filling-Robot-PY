@@ -1,0 +1,17 @@
+{
+  "_comment": [
+    "Robot configuration for the SCC / OnlineSCC crack-filling planners.",
+    "Edit this file to change the robot -- no code changes needed.",
+    "",
+    "One entry per robot (robot1, robot2, ...); both planners use robot1 today.",
+    "Each robot has three characteristic dimensions, in INCHES:",
+    "  base_diameter_in       robot base / limits",
+    "  footprint_diameter_in  nozzle / fill footprint",
+    "  sensor_diameter_in     robot sensor"
+  ],
+  "robot1": {
+    "base_diameter_in": 12,
+    "footprint_diameter_in": 7,
+    "sensor_diameter_in": 54
+  }
+}
